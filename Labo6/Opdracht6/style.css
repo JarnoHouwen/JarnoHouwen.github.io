@@ -21,10 +21,19 @@ background-repeat: no-repeat;
 }
 
 
-.checklist li.checked {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Checkbox_tick_mark.svg/2048px-Checkbox_tick_mark.svg.png'); / Vinkje icoon /
+.checklist li {
+    background-image: url('images/checkmark.webp');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    margin: 5px 0;
 }
 
-
-.checklist li:not(.checked) {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/19/Checkbox_blank.svg');
+.checklist li.checked {
+    background-image: url('images/Cross-mark-icon-in-red-color-on-transparent-background-PNG.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+    padding-left: 25px;
+    margin: 5px 0;
