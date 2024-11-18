@@ -8,7 +8,10 @@ body{
 
 header {
     height: 550px;
-
+background-image: url(../images/mcdonalds-cheeseburger-april-promo_nutrition-calculator-tile.jpg);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+  /  background-size: cover; */
 }
 
 header h1 {
