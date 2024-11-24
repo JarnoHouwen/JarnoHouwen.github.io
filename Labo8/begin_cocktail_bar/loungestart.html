@@ -17,11 +17,45 @@
 
 
           }
+          #guarantee{
+              margin: 30px;
+              padding:20px;
+              color: rgb(444444);
+              background-color: #a7cece;
+              border:thick dotted white;
+          }
           #wrapper{
               width:95%;
               margin-left:auto;
               margin-right:auto;
           }
+          .origin{
+              float: left;
+              width: 70%;
+              box-sizing: border-box;
+          }
+          .weekly{
+              float:right;
+              width: 25%;
+              background-color: #fdfdfd;
+              padding: 20px;
+              border: 2px solid #a7cece;
+              color: #444444;
+              
+              h2{
+                  color: red;
+              }
+
+          }
+.origin h1{
+              font-size: larger;
+              color: turquoise;
+          }
+.playing h2{
+    font-size: larger;
+    color: turquoise;
+}
+
 
       </style>
   </head>
@@ -30,7 +64,7 @@
       <header>
           <p><img src="images/cocktails.png" alt="Cocktail Bar"/></p>
       </header>
-      <article>
+      <article class = "weekly">
           <h1>Weekly  Specials</h1>
           <p>
               <img src="images/yellow.gif" alt="Lemon Breeze Elixir"/>
@@ -72,7 +106,7 @@
 
       </article>
  	  <section>
-          <article>
+          <article class = "origin">
           <h1>ORIGIN OF THE WORD “COCKTAIL</h1>
           <p>
               There is debate about when the term was first used. According the <a href="http://www.telegraph.co.uk/luxury/travel/1256/the-surprising-history-of-the-cocktail.html">The London Telegraph</a>,
@@ -110,7 +144,7 @@
               sometimes referred to as a “cock.”
           </p>
           </article>
-          <article>
+          <article class = "playing">
           <h2>What's playing at the Lounge</h2>
           <p>
               We're frequently asked about the music we play at the lounge, and no wonder,
