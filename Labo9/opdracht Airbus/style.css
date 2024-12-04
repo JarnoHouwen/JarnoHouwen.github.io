@@ -1,6 +1,144 @@
-.airbustitel{
 
-    color:blue;
-    font-size:48px;
-    text-align:center;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 200px;
+    background: url('images/bgsky3.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+    padding-top: 20px;
+}
+
+header .airbustitel {
+    font-size: 300%;
+    margin-top: 0px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header p {
+    font-size: 240%;
+    font-weight: bold;
+}
+
+header img {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+/* News section */
+.news {
+    width: 20%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    padding: 15px;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 20px;
+}
+
+.news h3 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.news p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Main section */
+.main {
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+}
+
+/* Introduction area */
+.introduction {
+float:left;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+
+    margin-bottom: 20px;
+}
+.logo{
+    float: left;
+}
+.introduction b {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Gallery area */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+    background-color: #999999;
+    padding: 20px;
+}
+
+.gallery .foto {
+    background-color: white;
+    padding: 10px;
+    border: 1px dashed #666;
+    text-align: center;
+}
+
+/* Bottom section */
+footer {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    clear: both;
+
+
+}
+
+footer .block left {
+    list-style: none;
+    padding: 0;
+    float: left;
+
+}
+
+footer .block right {
+    margin: 10px 0;
+    text-align: right;
+  float: right;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+}
+
+/* Copyright area */
+.copyright {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
 }
