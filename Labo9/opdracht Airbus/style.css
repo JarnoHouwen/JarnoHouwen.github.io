@@ -35,7 +35,7 @@ header img {
     top: 50px;
 }
 
-/* News section */
+
 .news {
     width: 20%;
     background-color: #dddddd;
@@ -63,14 +63,14 @@ header img {
     margin: 10px 0;
 }
 
-/* Main section */
+
 .main {
     width: 75%;
     float: left;
     margin-top: 20px;
 }
 
-/* Introduction area */
+
 .introduction {
 float:left;
     color: black;
@@ -88,7 +88,7 @@ float:left;
     font-style: italic;
 }
 
-/* Gallery area */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -104,7 +104,7 @@ float:left;
     text-align: center;
 }
 
-/* Bottom section */
+
 footer {
     background-color: #444;
     color: white;
@@ -135,7 +135,7 @@ footer a:hover {
     color: red;
 }
 
-/* Copyright area */
+
 .copyright {
     text-align: center;
     color: black;
